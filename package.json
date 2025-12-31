@@ -1,18 +1,11 @@
 {
   "name": "qtrams-nx",
   "private": true,
-  "devDependencies": {
-    "@nx/nest": "^22.3.3",
-    "@nx/react": "^22.3.3",
-    "@nx/vite": "^22.3.3",
-    "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.2",
-    "nx": "^18.0.0",
-    "vite": "^7.3.0"
+  "scripts": {
+    "build": "nx build web",
+    "dev": "nx serve web"
   },
-  "dependencies": {
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+  "devDependencies": {
+    "nx": "^18.0.0"
   }
 }
