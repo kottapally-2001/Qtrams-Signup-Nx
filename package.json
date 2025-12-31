@@ -2,8 +2,7 @@
   "name": "qtrams-nx",
   "private": true,
   "scripts": {
-    "build": "nx build web",
-    "dev": "nx serve web"
+    "build": "nx build web"
   },
   "devDependencies": {
     "nx": "^18.0.0"
