@@ -1,0 +1,846 @@
+[4m[34mapps\web\src\app.tsx:1:26[39m[24m - [31m[1merror[22m[39m [90mTS7016[39m: Could not find a declaration file for module 'react'. 'C:/Users/saicharan.k/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mimport[39m { useState } from [32m"react"[39m[33m;[39m[0m
+[0m [90m   | [39m                         [31m[1m^[22m[39m[0m
+[0m [90m 2 | [39m[0m
+[0m [90m 3 | [39m[36mexport[39m [36mdefault[39m [36mfunction[39m [33mApp[39m() {[0m
+[0m [90m 4 | [39m  [36mconst[39m [mode[33m,[39m setMode] [33m=[39m useState[33m<[39m[32m"signup"[39m [33m|[39m [32m"login"[39m[33m>[39m([32m"signup"[39m)[33m;[39m[0m
+
+[4m[34mapps\web\src\app.tsx:6:28[39m[24m - [31m[1merror[22m[39m [90mTS2503[39m: Cannot find namespace 'React'.
+
+[0m [90m 4 | [39m  [36mconst[39m [mode[33m,[39m setMode] [33m=[39m useState[33m<[39m[32m"signup"[39m [33m|[39m [32m"login"[39m[33m>[39m([32m"signup"[39m)[33m;[39m[0m
+[0m [90m 5 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 6 | [39m  [36mconst[39m handleSubmit [33m=[39m (e[33m:[39m [33mReact[39m[33m.[39m[33mFormEvent[39m) [33m=>[39m {[0m
+[0m [90m   | [39m                           [31m[1m^[22m[39m[0m
+[0m [90m 7 | [39m    e[33m.[39mpreventDefault()[33m;[39m[0m
+[0m [90m 8 | [39m[0m
+[0m [90m 9 | [39m    [36mif[39m (mode [33m===[39m [32m"signup"[39m) {[0m
+
+[4m[34mapps\web\src\app.tsx:17:5[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 15 | [39m[0m
+[0m [90m 16 | [39m  [36mreturn[39m ([0m
+[0m[31m[1m>[22m[39m[90m 17 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m[32m"container"[39m[33m>[39m[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 18 | [39m      {[90m/* Sidebar */[39m}[0m
+[0m [90m 19 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"sidebar"[39m[33m>[39m[0m
+[0m [90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:17:5[39m[24m - [31m[1merror[22m[39m [90mTS7016[39m: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/saicharan.k/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+
+[0m [90m 15 | [39m[0m
+[0m [90m 16 | [39m  [36mreturn[39m ([0m
+[0m[31m[1m>[22m[39m[90m 17 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m[32m"container"[39m[33m>[39m[0m
+[0m [90m    | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 18 | [39m      {[90m/* Sidebar */[39m}[0m
+[0m [90m 19 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"sidebar"[39m[33m>[39m[0m
+[0m [90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:19:7[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 17 | [39m    [33m<[39m[33mdiv[39m className[33m=[39m[32m"container"[39m[33m>[39m[0m
+[0m [90m 18 | [39m      {[90m/* Sidebar */[39m}[0m
+[0m[31m[1m>[22m[39m[90m 19 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"sidebar"[39m[33m>[39m[0m
+[0m [90m    | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+[0m [90m 21 | [39m          [33m<[39m[33mimg[39m src[33m=[39m[32m"/images/Qtrams.jpg"[39m alt[33m=[39m[32m"Qtrams Logo"[39m [33m/[39m[33m>[39m[0m
+[0m [90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:20:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 18 | [39m      {[90m/* Sidebar */[39m}[0m
+[0m [90m 19 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"sidebar"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 21 | [39m          [33m<[39m[33mimg[39m src[33m=[39m[32m"/images/Qtrams.jpg"[39m alt[33m=[39m[32m"Qtrams Logo"[39m [33m/[39m[33m>[39m[0m
+[0m [90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:21:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 19 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"sidebar"[39m[33m>[39m[0m
+[0m [90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 21 | [39m          [33m<[39m[33mimg[39m src[33m=[39m[32m"/images/Qtrams.jpg"[39m alt[33m=[39m[32m"Qtrams Logo"[39m [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:22:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+[0m [90m 21 | [39m          [33m<[39m[33mimg[39m src[33m=[39m[32m"/images/Qtrams.jpg"[39m alt[33m=[39m[32m"Qtrams Logo"[39m [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 25 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:22:21[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 20 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"logo-container"[39m[33m>[39m[0m
+[0m [90m 21 | [39m          [33m<[39m[33mimg[39m src[33m=[39m[32m"/images/Qtrams.jpg"[39m alt[33m=[39m[32m"Qtrams Logo"[39m [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m [90m    | [39m                    [31m[1m^[22m[39m[0m
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 25 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:23:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 21 | [39m          [33m<[39m[33mimg[39m src[33m=[39m[32m"/images/Qtrams.jpg"[39m alt[33m=[39m[32m"Qtrams Logo"[39m [33m/[39m[33m>[39m[0m
+[0m [90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 25 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 26 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:24:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m      {[90m/* Form Section */[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:24:54[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 22 | [39m          [33m<[39m[33mh1[39m[33m>[39m[33mQTrams[39m[33m<[39m[33m/[39mh1[33m>[39m[0m
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m    | [39m                                                     [31m[1m^[22m[39m[0m
+[0m [90m 25 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m      {[90m/* Form Section */[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:25:7[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 23 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 24 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"sidebar-credit"[39m[33m>[39m[33mPhoto[39m by [33mQtrams[39m[33m<[39m[33m/[39mp[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m      {[90m/* Form Section */[39m}[0m
+[0m [90m 28 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-section"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:28:7[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 26 | [39m[0m
+[0m [90m 27 | [39m      {[90m/* Form Section */[39m}[0m
+[0m[31m[1m>[22m[39m[90m 28 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-section"[39m[33m>[39m[0m
+[0m [90m    | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 29 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"intro"[39m[33m>[39m[0m
+[0m [90m 30 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 31 | [39m            [33m<[39m[33mb[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:29:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 27 | [39m      {[90m/* Form Section */[39m}[0m
+[0m [90m 28 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-section"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 29 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"intro"[39m[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 30 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 31 | [39m            [33m<[39m[33mb[39m[33m>[39m[0m
+[0m [90m 32 | [39m              [33mWelcome[39m[33m![39m [33mLet[39m[32m's get you started on something great. Just fill in[39m[0m
+
+[4m[34mapps\web\src\app.tsx:30:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 28 | [39m      [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-section"[39m[33m>[39m[0m
+[0m [90m 29 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"intro"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 30 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 31 | [39m            [33m<[39m[33mb[39m[33m>[39m[0m
+[0m [90m 32 | [39m              [33mWelcome[39m[33m![39m [33mLet[39m[32m's get you started on something great. Just fill in[39m[0m
+[0m [90m 33 | [39m              your details and join the journey[33m.[39m[0m
+
+[4m[34mapps\web\src\app.tsx:31:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 29 | [39m        [33m<[39m[33mdiv[39m className[33m=[39m[32m"intro"[39m[33m>[39m[0m
+[0m [90m 30 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 31 | [39m            [33m<[39m[33mb[39m[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 32 | [39m              [33mWelcome[39m[33m![39m [33mLet[39m[32m's get you started on something great. Just fill in[39m[0m
+[0m [90m 33 | [39m              your details and join the journey[33m.[39m[0m
+[0m [90m 34 | [39m            [33m<[39m[33m/[39mb[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:34:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 32 | [39m              [33mWelcome[39m[33m![39m [33mLet[39m[32m's get you started on something great. Just fill in[39m[0m
+[0m [90m 33 | [39m              your details and join the journey[33m.[39m[0m
+[0m[31m[1m>[22m[39m[90m 34 | [39m            [33m<[39m[33m/[39mb[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 35 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 36 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 37 | [39m            [33m<[39m[33mstrong[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:35:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 33 | [39m              your details and join the journey[33m.[39m[0m
+[0m [90m 34 | [39m            [33m<[39m[33m/[39mb[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 35 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 36 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 37 | [39m            [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 38 | [39m              {mode [33m===[39m [32m"signup"[39m[0m
+
+[4m[34mapps\web\src\app.tsx:36:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 34 | [39m            [33m<[39m[33m/[39mb[33m>[39m[0m
+[0m [90m 35 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 36 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 37 | [39m            [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m 38 | [39m              {mode [33m===[39m [32m"signup"[39m[0m
+[0m [90m 39 | [39m                [33m?[39m [32m"Sign up now to get started."[39m[0m
+
+[4m[34mapps\web\src\app.tsx:37:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 35 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 36 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 37 | [39m            [33m<[39m[33mstrong[39m[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 38 | [39m              {mode [33m===[39m [32m"signup"[39m[0m
+[0m [90m 39 | [39m                [33m?[39m [32m"Sign up now to get started."[39m[0m
+[0m [90m 40 | [39m                [33m:[39m [32m"Log in to continue."[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:41:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 39 | [39m                [33m?[39m [32m"Sign up now to get started."[39m[0m
+[0m [90m 40 | [39m                [33m:[39m [32m"Log in to continue."[39m}[0m
+[0m[31m[1m>[22m[39m[90m 41 | [39m            [33m<[39m[33m/[39mstrong[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 42 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 43 | [39m          [33m<[39m[33mbr[39m [33m/[39m[33m>[39m[0m
+[0m [90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:42:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 40 | [39m                [33m:[39m [32m"Log in to continue."[39m}[0m
+[0m [90m 41 | [39m            [33m<[39m[33m/[39mstrong[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 42 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 43 | [39m          [33m<[39m[33mbr[39m [33m/[39m[33m>[39m[0m
+[0m [90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:43:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 41 | [39m            [33m<[39m[33m/[39mstrong[33m>[39m[0m
+[0m [90m 42 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 43 | [39m          [33m<[39m[33mbr[39m [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+[0m [90m 46 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:44:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 42 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 43 | [39m          [33m<[39m[33mbr[39m [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+[0m [90m 46 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 47 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:45:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 43 | [39m          [33m<[39m[33mbr[39m [33m/[39m[33m>[39m[0m
+[0m [90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 46 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 47 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 48 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:45:38[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 43 | [39m          [33m<[39m[33mbr[39m [33m/[39m[33m>[39m[0m
+[0m [90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+[0m [90m    | [39m                                     [31m[1m^[22m[39m[0m
+[0m [90m 46 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 47 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 48 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:46:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 44 | [39m          [33m<[39m[33mp[39m[33m>[39m[0m
+[0m [90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 46 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 47 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 48 | [39m[0m
+[0m [90m 49 | [39m        {[90m/* FORM */[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:47:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 45 | [39m            [33m<[39m[33mem[39m[33m>[39m[33mYou[39m know you want to[33m.[39m[33m<[39m[33m/[39mem[33m>[39m[0m
+[0m [90m 46 | [39m          [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 47 | [39m        [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 48 | [39m[0m
+[0m [90m 49 | [39m        {[90m/* FORM */[39m}[0m
+[0m [90m 50 | [39m        [33m<[39m[33mform[39m onSubmit[33m=[39m{handleSubmit}[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:50:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 48 | [39m[0m
+[0m [90m 49 | [39m        {[90m/* FORM */[39m}[0m
+[0m[31m[1m>[22m[39m[90m 50 | [39m        [33m<[39m[33mform[39m onSubmit[33m=[39m{handleSubmit}[33m>[39m[0m
+[0m [90m    | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 51 | [39m          [33m<[39m[33mh3[39m[33m>[39m{mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Let's do this!"[39m [33m:[39m [32m"Welcome back!"[39m}[33m<[39m[33m/[39mh3[33m>[39m[0m
+[0m [90m 52 | [39m[0m
+[0m [90m 53 | [39m          {[90m/* SIGNUP FIELDS */[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:51:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 49 | [39m        {[90m/* FORM */[39m}[0m
+[0m [90m 50 | [39m        [33m<[39m[33mform[39m onSubmit[33m=[39m{handleSubmit}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 51 | [39m          [33m<[39m[33mh3[39m[33m>[39m{mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Let's do this!"[39m [33m:[39m [32m"Welcome back!"[39m}[33m<[39m[33m/[39mh3[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 52 | [39m[0m
+[0m [90m 53 | [39m          {[90m/* SIGNUP FIELDS */[39m}[0m
+[0m [90m 54 | [39m          {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+
+[4m[34mapps\web\src\app.tsx:51:71[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 49 | [39m        {[90m/* FORM */[39m}[0m
+[0m [90m 50 | [39m        [33m<[39m[33mform[39m onSubmit[33m=[39m{handleSubmit}[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 51 | [39m          [33m<[39m[33mh3[39m[33m>[39m{mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Let's do this!"[39m [33m:[39m [32m"Welcome back!"[39m}[33m<[39m[33m/[39mh3[33m>[39m[0m
+[0m [90m    | [39m                                                                      [31m[1m^[22m[39m[0m
+[0m [90m 52 | [39m[0m
+[0m [90m 53 | [39m          {[90m/* SIGNUP FIELDS */[39m}[0m
+[0m [90m 54 | [39m          {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+
+[4m[34mapps\web\src\app.tsx:56:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 54 | [39m          {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 55 | [39m            [33m<[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 56 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 57 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 58 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"first-name"[39m[33m>[39m[33mFirst[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 59 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"first-name"[39m required [33m/[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:57:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 55 | [39m            [33m<[39m[33m>[39m[0m
+[0m [90m 56 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 57 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 58 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"first-name"[39m[33m>[39m[33mFirst[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 59 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"first-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 60 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:58:19[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 56 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m 57 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 58 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"first-name"[39m[33m>[39m[33mFirst[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                  [31m[1m^[22m[39m[0m
+[0m [90m 59 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"first-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 60 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 61 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:58:57[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 56 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m 57 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 58 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"first-name"[39m[33m>[39m[33mFirst[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                                                        [31m[1m^[22m[39m[0m
+[0m [90m 59 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"first-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 60 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 61 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:59:19[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 57 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 58 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"first-name"[39m[33m>[39m[33mFirst[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 59 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"first-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m                  [31m[1m^[22m[39m[0m
+[0m [90m 60 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 61 | [39m[0m
+[0m [90m 62 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:60:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 58 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"first-name"[39m[33m>[39m[33mFirst[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 59 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"first-name"[39m required [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 60 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 61 | [39m[0m
+[0m [90m 62 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 63 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"last-name"[39m[33m>[39m[33mLast[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:62:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 60 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 61 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 62 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 63 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"last-name"[39m[33m>[39m[33mLast[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 64 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"last-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 65 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:63:19[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 61 | [39m[0m
+[0m [90m 62 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 63 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"last-name"[39m[33m>[39m[33mLast[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                  [31m[1m^[22m[39m[0m
+[0m [90m 64 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"last-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 65 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 66 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:63:55[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 61 | [39m[0m
+[0m [90m 62 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 63 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"last-name"[39m[33m>[39m[33mLast[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                                                      [31m[1m^[22m[39m[0m
+[0m [90m 64 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"last-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 65 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 66 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:64:19[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 62 | [39m                [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 63 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"last-name"[39m[33m>[39m[33mLast[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 64 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"last-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m                  [31m[1m^[22m[39m[0m
+[0m [90m 65 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 66 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 67 | [39m            [33m<[39m[33m/[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:65:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 63 | [39m                  [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"last-name"[39m[33m>[39m[33mLast[39m [33mName[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 64 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"last-name"[39m required [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 65 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 66 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 67 | [39m            [33m<[39m[33m/[39m[33m>[39m[0m
+[0m [90m 68 | [39m          )}[0m
+
+[4m[34mapps\web\src\app.tsx:66:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 64 | [39m                  [33m<[39m[33minput[39m id[33m=[39m[32m"last-name"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 65 | [39m                [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 66 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 67 | [39m            [33m<[39m[33m/[39m[33m>[39m[0m
+[0m [90m 68 | [39m          )}[0m
+[0m [90m 69 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:71:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 69 | [39m[0m
+[0m [90m 70 | [39m          {[90m/* COMMON FIELDS */[39m}[0m
+[0m[31m[1m>[22m[39m[90m 71 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 72 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 73 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"email"[39m[33m>[39m[33mEmail[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 74 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"email"[39m id[33m=[39m[32m"email"[39m required [33m/[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:72:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 70 | [39m          {[90m/* COMMON FIELDS */[39m}[0m
+[0m [90m 71 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 73 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"email"[39m[33m>[39m[33mEmail[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 74 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"email"[39m id[33m=[39m[32m"email"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 75 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:73:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 71 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m 72 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"email"[39m[33m>[39m[33mEmail[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 74 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"email"[39m id[33m=[39m[32m"email"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 75 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 76 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:73:43[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 71 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m 72 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"email"[39m[33m>[39m[33mEmail[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                                          [31m[1m^[22m[39m[0m
+[0m [90m 74 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"email"[39m id[33m=[39m[32m"email"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 75 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 76 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:74:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 72 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 73 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"email"[39m[33m>[39m[33mEmail[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 74 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"email"[39m id[33m=[39m[32m"email"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 75 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 76 | [39m[0m
+[0m [90m 77 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+
+[4m[34mapps\web\src\app.tsx:75:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 73 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"email"[39m[33m>[39m[33mEmail[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 74 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"email"[39m id[33m=[39m[32m"email"[39m required [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 75 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 76 | [39m[0m
+[0m [90m 77 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 78 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:78:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 76 | [39m[0m
+[0m [90m 77 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m[31m[1m>[22m[39m[90m 78 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 79 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"phone"[39m[33m>[39m[33mPhone[39m [33mNumber[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 80 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"tel"[39m id[33m=[39m[32m"phone"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 81 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:79:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 77 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 78 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 79 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"phone"[39m[33m>[39m[33mPhone[39m [33mNumber[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 80 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"tel"[39m id[33m=[39m[32m"phone"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 81 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 82 | [39m            )}[0m
+
+[4m[34mapps\web\src\app.tsx:79:52[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 77 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 78 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 79 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"phone"[39m[33m>[39m[33mPhone[39m [33mNumber[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                                                   [31m[1m^[22m[39m[0m
+[0m [90m 80 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"tel"[39m id[33m=[39m[32m"phone"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 81 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 82 | [39m            )}[0m
+
+[4m[34mapps\web\src\app.tsx:80:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 78 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 79 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"phone"[39m[33m>[39m[33mPhone[39m [33mNumber[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 80 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"tel"[39m id[33m=[39m[32m"phone"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 81 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 82 | [39m            )}[0m
+[0m [90m 83 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:81:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 79 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"phone"[39m[33m>[39m[33mPhone[39m [33mNumber[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 80 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"tel"[39m id[33m=[39m[32m"phone"[39m required [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 81 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 82 | [39m            )}[0m
+[0m [90m 83 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 84 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:83:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 81 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 82 | [39m            )}[0m
+[0m[31m[1m>[22m[39m[90m 83 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 84 | [39m[0m
+[0m [90m 85 | [39m          {[90m/* PASSWORD */[39m}[0m
+[0m [90m 86 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:86:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 84 | [39m[0m
+[0m [90m 85 | [39m          {[90m/* PASSWORD */[39m}[0m
+[0m[31m[1m>[22m[39m[90m 86 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m    | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 87 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 88 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"password"[39m[33m>[39m[33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 89 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"password"[39m required [33m/[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:87:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 85 | [39m          {[90m/* PASSWORD */[39m}[0m
+[0m [90m 86 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 87 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 88 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"password"[39m[33m>[39m[33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 89 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 90 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:88:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 86 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m 87 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 88 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"password"[39m[33m>[39m[33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 89 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 90 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 91 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:88:49[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 86 | [39m          [33m<[39m[33mdiv[39m className[33m=[39m[32m"form-row"[39m[33m>[39m[0m
+[0m [90m 87 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 88 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"password"[39m[33m>[39m[33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                                                [31m[1m^[22m[39m[0m
+[0m [90m 89 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 90 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 91 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:89:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 87 | [39m            [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 88 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"password"[39m[33m>[39m[33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 89 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 90 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+
+[4m[34mapps\web\src\app.tsx:90:13[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 88 | [39m              [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"password"[39m[33m>[39m[33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 89 | [39m              [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"password"[39m required [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 90 | [39m            [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m            [31m[1m^[22m[39m[0m
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 93 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:93:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 91 | [39m[0m
+[0m [90m 92 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m[31m[1m>[22m[39m[90m 93 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 94 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"confirm-password"[39m[33m>[39m[33mConfirm[39m [33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 95 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"confirm-password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 96 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:94:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 92 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 93 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 94 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"confirm-password"[39m[33m>[39m[33mConfirm[39m [33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 95 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"confirm-password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 96 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 97 | [39m            )}[0m
+
+[4m[34mapps\web\src\app.tsx:94:67[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 92 | [39m            {mode [33m===[39m [32m"signup"[39m [33m&&[39m ([0m
+[0m [90m 93 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 94 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"confirm-password"[39m[33m>[39m[33mConfirm[39m [33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m    | [39m                                                                  [31m[1m^[22m[39m[0m
+[0m [90m 95 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"confirm-password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m 96 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 97 | [39m            )}[0m
+
+[4m[34mapps\web\src\app.tsx:95:17[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 93 | [39m              [33m<[39m[33mdiv[39m className[33m=[39m[32m"input-group"[39m[33m>[39m[0m
+[0m [90m 94 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"confirm-password"[39m[33m>[39m[33mConfirm[39m [33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 95 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"confirm-password"[39m required [33m/[39m[33m>[39m[0m
+[0m [90m    | [39m                [31m[1m^[22m[39m[0m
+[0m [90m 96 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 97 | [39m            )}[0m
+[0m [90m 98 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:96:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 94 | [39m                [33m<[39m[33mlabel[39m htmlFor[33m=[39m[32m"confirm-password"[39m[33m>[39m[33mConfirm[39m [33mPassword[39m[33m<[39m[33m/[39mlabel[33m>[39m[0m
+[0m [90m 95 | [39m                [33m<[39m[33minput[39m type[33m=[39m[32m"password"[39m id[33m=[39m[32m"confirm-password"[39m required [33m/[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 96 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m    | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 97 | [39m            )}[0m
+[0m [90m 98 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 99 | [39m[0m
+
+[4m[34mapps\web\src\app.tsx:98:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m  96 | [39m              [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m  97 | [39m            )}[0m
+[0m[31m[1m>[22m[39m[90m  98 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m     | [39m          [31m[1m^[22m[39m[0m
+[0m [90m  99 | [39m[0m
+[0m [90m 100 | [39m          [33m<[39m[33mbutton[39m type[33m=[39m[32m"submit"[39m[33m>[39m[0m
+[0m [90m 101 | [39m            {mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Create Account"[39m [33m:[39m [32m"Log In"[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:100:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m  98 | [39m          [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m  99 | [39m[0m
+[0m[31m[1m>[22m[39m[90m 100 | [39m          [33m<[39m[33mbutton[39m type[33m=[39m[32m"submit"[39m[33m>[39m[0m
+[0m [90m     | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 101 | [39m            {mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Create Account"[39m [33m:[39m [32m"Log In"[39m}[0m
+[0m [90m 102 | [39m          [33m<[39m[33m/[39mbutton[33m>[39m[0m
+[0m [90m 103 | [39m        [33m<[39m[33m/[39mform[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:102:11[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 100 | [39m          [33m<[39m[33mbutton[39m type[33m=[39m[32m"submit"[39m[33m>[39m[0m
+[0m [90m 101 | [39m            {mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Create Account"[39m [33m:[39m [32m"Log In"[39m}[0m
+[0m[31m[1m>[22m[39m[90m 102 | [39m          [33m<[39m[33m/[39mbutton[33m>[39m[0m
+[0m [90m     | [39m          [31m[1m^[22m[39m[0m
+[0m [90m 103 | [39m        [33m<[39m[33m/[39mform[33m>[39m[0m
+[0m [90m 104 | [39m[0m
+[0m [90m 105 | [39m        {[90m/* TOGGLE LINK */[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:103:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 101 | [39m            {mode [33m===[39m [32m"signup"[39m [33m?[39m [32m"Create Account"[39m [33m:[39m [32m"Log In"[39m}[0m
+[0m [90m 102 | [39m          [33m<[39m[33m/[39mbutton[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 103 | [39m        [33m<[39m[33m/[39mform[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 104 | [39m[0m
+[0m [90m 105 | [39m        {[90m/* TOGGLE LINK */[39m}[0m
+[0m [90m 106 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"login"[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:106:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 104 | [39m[0m
+[0m [90m 105 | [39m        {[90m/* TOGGLE LINK */[39m}[0m
+[0m[31m[1m>[22m[39m[90m 106 | [39m        [33m<[39m[33mp[39m className[33m=[39m[32m"login"[39m[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 107 | [39m          {mode [33m===[39m [32m"signup"[39m [33m?[39m ([0m
+[0m [90m 108 | [39m            [33m<[39m[33m>[39m[0m
+[0m [90m 109 | [39m              [33mAlready[39m have an account[33m?[39m{[32m" "[39m}[0m
+
+[4m[34mapps\web\src\app.tsx:110:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 108 | [39m            [33m<[39m[33m>[39m[0m
+[0m [90m 109 | [39m              [33mAlready[39m have an account[33m?[39m{[32m" "[39m}[0m
+[0m[31m[1m>[22m[39m[90m 110 | [39m              [33m<[39m[33ma[39m[0m
+[0m [90m     | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 111 | [39m                href[33m=[39m[32m"#"[39m[0m
+[0m [90m 112 | [39m                onClick[33m=[39m{(e) [33m=>[39m {[0m
+[0m [90m 113 | [39m                  e[33m.[39mpreventDefault()[33m;[39m[0m
+
+[4m[34mapps\web\src\app.tsx:112:27[39m[24m - [31m[1merror[22m[39m [90mTS7006[39m: Parameter 'e' implicitly has an 'any' type.
+
+[0m [90m 110 | [39m              [33m<[39m[33ma[39m[0m
+[0m [90m 111 | [39m                href[33m=[39m[32m"#"[39m[0m
+[0m[31m[1m>[22m[39m[90m 112 | [39m                onClick[33m=[39m{(e) [33m=>[39m {[0m
+[0m [90m     | [39m                          [31m[1m^[22m[39m[0m
+[0m [90m 113 | [39m                  e[33m.[39mpreventDefault()[33m;[39m[0m
+[0m [90m 114 | [39m                  setMode([32m"login"[39m)[33m;[39m[0m
+[0m [90m 115 | [39m                }}[0m
+
+[4m[34mapps\web\src\app.tsx:118:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 116 | [39m              [33m>[39m[0m
+[0m [90m 117 | [39m                [33mLog[39m [36min[39m[0m
+[0m[31m[1m>[22m[39m[90m 118 | [39m              [33m<[39m[33m/[39ma[33m>[39m[0m
+[0m [90m     | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 119 | [39m            [33m<[39m[33m/[39m[33m>[39m[0m
+[0m [90m 120 | [39m          ) [33m:[39m ([0m
+[0m [90m 121 | [39m            [33m<[39m[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:123:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 121 | [39m            [33m<[39m[33m>[39m[0m
+[0m [90m 122 | [39m              [33mDon’t[39m have an account[33m?[39m{[32m" "[39m}[0m
+[0m[31m[1m>[22m[39m[90m 123 | [39m              [33m<[39m[33ma[39m[0m
+[0m [90m     | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 124 | [39m                href[33m=[39m[32m"#"[39m[0m
+[0m [90m 125 | [39m                onClick[33m=[39m{(e) [33m=>[39m {[0m
+[0m [90m 126 | [39m                  e[33m.[39mpreventDefault()[33m;[39m[0m
+
+[4m[34mapps\web\src\app.tsx:125:27[39m[24m - [31m[1merror[22m[39m [90mTS7006[39m: Parameter 'e' implicitly has an 'any' type.
+
+[0m [90m 123 | [39m              [33m<[39m[33ma[39m[0m
+[0m [90m 124 | [39m                href[33m=[39m[32m"#"[39m[0m
+[0m[31m[1m>[22m[39m[90m 125 | [39m                onClick[33m=[39m{(e) [33m=>[39m {[0m
+[0m [90m     | [39m                          [31m[1m^[22m[39m[0m
+[0m [90m 126 | [39m                  e[33m.[39mpreventDefault()[33m;[39m[0m
+[0m [90m 127 | [39m                  setMode([32m"signup"[39m)[33m;[39m[0m
+[0m [90m 128 | [39m                }}[0m
+
+[4m[34mapps\web\src\app.tsx:131:15[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 129 | [39m              [33m>[39m[0m
+[0m [90m 130 | [39m                [33mSign[39m up[0m
+[0m[31m[1m>[22m[39m[90m 131 | [39m              [33m<[39m[33m/[39ma[33m>[39m[0m
+[0m [90m     | [39m              [31m[1m^[22m[39m[0m
+[0m [90m 132 | [39m            [33m<[39m[33m/[39m[33m>[39m[0m
+[0m [90m 133 | [39m          )}[0m
+[0m [90m 134 | [39m        [33m<[39m[33m/[39mp[33m>[39m[0m
+
+[4m[34mapps\web\src\app.tsx:134:9[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 132 | [39m            [33m<[39m[33m/[39m[33m>[39m[0m
+[0m [90m 133 | [39m          )}[0m
+[0m[31m[1m>[22m[39m[90m 134 | [39m        [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m     | [39m        [31m[1m^[22m[39m[0m
+[0m [90m 135 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 136 | [39m    [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 137 | [39m  )[33m;[39m[0m
+
+[4m[34mapps\web\src\app.tsx:135:7[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 133 | [39m          )}[0m
+[0m [90m 134 | [39m        [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 135 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m     | [39m      [31m[1m^[22m[39m[0m
+[0m [90m 136 | [39m    [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m 137 | [39m  )[33m;[39m[0m
+[0m [90m 138 | [39m}[0m
+
+[4m[34mapps\web\src\app.tsx:136:5[39m[24m - [31m[1merror[22m[39m [90mTS7026[39m: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+
+[0m [90m 134 | [39m        [33m<[39m[33m/[39mp[33m>[39m[0m
+[0m [90m 135 | [39m      [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 136 | [39m    [33m<[39m[33m/[39mdiv[33m>[39m[0m
+[0m [90m     | [39m    [31m[1m^[22m[39m[0m
+[0m [90m 137 | [39m  )[33m;[39m[0m
+[0m [90m 138 | [39m}[0m
+[0m [90m 139 | [39m[0m
+
+[4m[34mapps\web\src\main.tsx:1:19[39m[24m - [31m[1merror[22m[39m [90mTS7016[39m: Could not find a declaration file for module 'react'. 'C:/Users/saicharan.k/node_modules/react/index.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react';`
+
+[0m[31m[1m>[22m[39m[90m 1 | [39m[36mimport[39m [33mReact[39m from [32m"react"[39m[33m;[39m[0m
+[0m [90m   | [39m                  [31m[1m^[22m[39m[0m
+[0m [90m 2 | [39m[36mimport[39m [33mReactDOM[39m from [32m"react-dom/client"[39m[33m;[39m[0m
+[0m [90m 3 | [39m[36mimport[39m [33mApp[39m from [32m"./app"[39m[33m;[39m[0m
+[0m [90m 4 | [39m[36mimport[39m [32m"./style.css"[39m[33m;[39m[0m
+
+[4m[34mapps\web\src\main.tsx:2:22[39m[24m - [31m[1merror[22m[39m [90mTS7016[39m: Could not find a declaration file for module 'react-dom/client'. 'C:/Users/saicharan.k/node_modules/react-dom/client.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react-dom` if it exists or add a new declaration (.d.ts) file containing `declare module 'react-dom/client';`
+
+[0m [90m 1 | [39m[36mimport[39m [33mReact[39m from [32m"react"[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 | [39m[36mimport[39m [33mReactDOM[39m from [32m"react-dom/client"[39m[33m;[39m[0m
+[0m [90m   | [39m                     [31m[1m^[22m[39m[0m
+[0m [90m 3 | [39m[36mimport[39m [33mApp[39m from [32m"./app"[39m[33m;[39m[0m
+[0m [90m 4 | [39m[36mimport[39m [32m"./style.css"[39m[33m;[39m[0m
+[0m [90m 5 | [39m[0m
+
+[4m[34mapps\web\src\main.tsx:7:3[39m[24m - [31m[1merror[22m[39m [90mTS7016[39m: Could not find a declaration file for module 'react/jsx-runtime'. 'C:/Users/saicharan.k/node_modules/react/jsx-runtime.js' implicitly has an 'any' type.
+  Try `npm i --save-dev @types/react` if it exists or add a new declaration (.d.ts) file containing `declare module 'react/jsx-runtime';`
+
+[0m [90m  5 | [39m[0m
+[0m [90m  6 | [39m[33mReactDOM[39m[33m.[39mcreateRoot(document[33m.[39mgetElementById([32m"root"[39m)[33m![39m)[33m.[39mrender([0m
+[0m[31m[1m>[22m[39m[90m  7 | [39m  [33m<[39m[33mReact[39m[33m.[39m[33mStrictMode[39m[33m>[39m[0m
+[0m [90m    | [39m  [31m[1m^[22m[39m[0m
+[0m [90m  8 | [39m    [33m<[39m[33mApp[39m [33m/[39m[33m>[39m[0m
+[0m [90m  9 | [39m  [33m<[39m[33m/[39m[33mReact[39m[33m.[39m[33mStrictMode[39m[33m>[39m[0m
+[0m [90m 10 | [39m)[33m;[39m[0m
+
+Found 84 errors.
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mFound type errors. See above.[39m
+
+Pass --verbose to see the stacktrace.
+

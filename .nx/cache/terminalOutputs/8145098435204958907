@@ -1,0 +1,8 @@
+[36mvite v7.3.0 [32mbuilding client environment for production...[36m[39m
+[32m✓[39m 0 modules transformed.
+[31m✗[39m Build failed in 15ms
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31m[31mCould not resolve entry module "index.html".[39m[31m[39m
+
+Pass --verbose to see the stacktrace.
+

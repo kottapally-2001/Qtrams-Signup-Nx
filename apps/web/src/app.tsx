@@ -3,7 +3,8 @@ import { useState } from "react";
 export default function App() {
   const [mode, setMode] = useState<"signup" | "login">("signup");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+
     e.preventDefault();
 
     if (mode === "signup") {

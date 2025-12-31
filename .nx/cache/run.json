@@ -1,21 +1,21 @@
 {
   "run": {
-    "command": "nx serve web",
-    "startTime": "2025-12-31T06:29:39.345Z",
-    "endTime": "2025-12-31T06:33:51.962Z",
+    "command": "nx build web",
+    "startTime": "2025-12-31T07:16:18.378Z",
+    "endTime": "2025-12-31T07:16:22.542Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "web:serve",
-      "target": "serve",
+      "taskId": "web:build",
+      "target": "build",
       "projectName": "web",
-      "hash": "2938027023889499322",
-      "startTime": "2025-12-31T06:29:39.352Z",
-      "endTime": "2025-12-31T06:33:51.962Z",
+      "hash": "5583620055965517295",
+      "startTime": "2025-12-31T07:16:18.384Z",
+      "endTime": "2025-12-31T07:16:22.541Z",
       "params": "",
       "cacheStatus": "cache-miss",
-      "status": 1
+      "status": 0
     }
   ]
 }

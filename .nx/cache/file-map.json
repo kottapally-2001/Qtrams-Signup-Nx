@@ -2,7 +2,11 @@
   "version": "6.0",
   "nxVersion": "18.3.5",
   "deps": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
     "@nx/vite": "^22.3.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
     "nx": "^18.0.0",
     "vite": "^7.3.0"
@@ -18,7 +22,7 @@
         },
         {
           "file": "apps/web/project.json",
-          "hash": "14509649168710290911"
+          "hash": "7781877754276677326"
         },
         {
           "file": "apps/web/public/images/Qt.jpg",
@@ -30,28 +34,23 @@
         },
         {
           "file": "apps/web/src/app.tsx",
-          "hash": "6655037164160682599"
+          "hash": "6618358775004575144"
         },
         {
           "file": "apps/web/src/main.tsx",
-          "hash": "1484737792918215088",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
+          "hash": "13024075891528775249"
         },
         {
           "file": "apps/web/src/style.css",
-          "hash": "751499698190590954"
+          "hash": "16628958076596338377"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "2156332867242229801"
         },
         {
           "file": "apps/web/vite.config.ts",
-          "hash": "8911545498513188612",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:path"
-          ]
+          "hash": "8554534668869538406"
         }
       ],
       "api": [
@@ -77,16 +76,28 @@
     },
     "nonProjectFiles": [
       {
+        "file": ".gitignore",
+        "hash": "2990479407656372930"
+      },
+      {
         "file": "nx.json",
         "hash": "17670818266143346511"
       },
       {
         "file": "package-lock.json",
-        "hash": "12346115351226826555"
+        "hash": "15805637289308904857"
       },
       {
         "file": "package.json",
-        "hash": "6512042775747280520"
+        "hash": "12326820591834481377"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "2394994558887659430"
+      },
+      {
+        "file": "vercel.json",
+        "hash": "1023880982028703962"
       }
     ]
   }
