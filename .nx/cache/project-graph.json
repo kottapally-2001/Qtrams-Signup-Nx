@@ -784,6 +784,24 @@
         "hash": "sha512-oThy3BCuCha8kDZ8ZkgOg2exvPYUlprMukKQXI1r1pJ47NCvxfkEy8vK+r/hT9nF0Aa4H1WUPZZjHTFtAhGfmQ=="
       }
     },
+    "npm:@babel/plugin-transform-react-jsx-self": {
+      "type": "npm",
+      "name": "npm:@babel/plugin-transform-react-jsx-self",
+      "data": {
+        "version": "7.27.1",
+        "packageName": "@babel/plugin-transform-react-jsx-self",
+        "hash": "sha512-6UzkCs+ejGdZ5mFFC/OCUrv028ab2fp1znZmCZjAOBKiBK2jXD1O+BPSfX8X2qjJ75fZBMSnQn3Rq2mrBJK2mw=="
+      }
+    },
+    "npm:@babel/plugin-transform-react-jsx-source": {
+      "type": "npm",
+      "name": "npm:@babel/plugin-transform-react-jsx-source",
+      "data": {
+        "version": "7.27.1",
+        "packageName": "@babel/plugin-transform-react-jsx-source",
+        "hash": "sha512-zbwoTsBruTeKB9hSq73ha66iFeJHuaFkUbwvqElnygoNbj/jHRsSeokowZFN3CZ64IvEqcmmkVe89OPXc7ldAw=="
+      }
+    },
     "npm:@babel/plugin-transform-regenerator": {
       "type": "npm",
       "name": "npm:@babel/plugin-transform-regenerator",
@@ -1585,6 +1603,15 @@
         "hash": "sha512-3nVv+e2FQwsW8Aw6qTU6f+1rfcJ3hrcnvH/mu9i8YhxO+9sqbOfpL8m6PbET5+xKOlz/VSbp0RoYWYCtIsnmuA=="
       }
     },
+    "npm:@rolldown/pluginutils": {
+      "type": "npm",
+      "name": "npm:@rolldown/pluginutils",
+      "data": {
+        "version": "1.0.0-beta.53",
+        "packageName": "@rolldown/pluginutils",
+        "hash": "sha512-vENRlFU4YbrwVqNDZ7fLvy+JR1CRkyr01jhSiDpE1u6py3OMzQfztQU2jxykW3ALNxO4kSlqIDeYyD0Y9RcQeQ=="
+      }
+    },
     "npm:@standard-schema/spec": {
       "type": "npm",
       "name": "npm:@standard-schema/spec",
@@ -1592,6 +1619,42 @@
         "version": "1.1.0",
         "packageName": "@standard-schema/spec",
         "hash": "sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w=="
+      }
+    },
+    "npm:@types/babel__core": {
+      "type": "npm",
+      "name": "npm:@types/babel__core",
+      "data": {
+        "version": "7.20.5",
+        "packageName": "@types/babel__core",
+        "hash": "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA=="
+      }
+    },
+    "npm:@types/babel__generator": {
+      "type": "npm",
+      "name": "npm:@types/babel__generator",
+      "data": {
+        "version": "7.27.0",
+        "packageName": "@types/babel__generator",
+        "hash": "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg=="
+      }
+    },
+    "npm:@types/babel__template": {
+      "type": "npm",
+      "name": "npm:@types/babel__template",
+      "data": {
+        "version": "7.4.4",
+        "packageName": "@types/babel__template",
+        "hash": "sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A=="
+      }
+    },
+    "npm:@types/babel__traverse": {
+      "type": "npm",
+      "name": "npm:@types/babel__traverse",
+      "data": {
+        "version": "7.28.0",
+        "packageName": "@types/babel__traverse",
+        "hash": "sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q=="
       }
     },
     "npm:@types/chai": {
@@ -1628,6 +1691,15 @@
         "version": "4.0.2",
         "packageName": "@types/parse-json",
         "hash": "sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw=="
+      }
+    },
+    "npm:@vitejs/plugin-react": {
+      "type": "npm",
+      "name": "npm:@vitejs/plugin-react",
+      "data": {
+        "version": "5.1.2",
+        "packageName": "@vitejs/plugin-react",
+        "hash": "sha512-EcA07pHJouywpzsoTUqNh5NwGayl2PPVEJKUSinGGSxFGYn+shYbqMGBg6FXDqgXum9Ou/ecb+411ssw8HImJQ=="
       }
     },
     "npm:@vitest/expect": {
@@ -2440,6 +2512,15 @@
         "hash": "sha512-VWSRii4t0AFm6ixFFmLLx1t7wS1gh+ckoa84aOeapGum0h+EZd1EhEumSB+ZdDLnEPuucsVB9oB7cxJHap6Afg=="
       }
     },
+    "npm:fsevents": {
+      "type": "npm",
+      "name": "npm:fsevents",
+      "data": {
+        "version": "2.3.3",
+        "packageName": "fsevents",
+        "hash": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw=="
+      }
+    },
     "npm:function-bind": {
       "type": "npm",
       "name": "npm:function-bind",
@@ -2989,6 +3070,15 @@
         "hash": "sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg=="
       }
     },
+    "npm:react-refresh": {
+      "type": "npm",
+      "name": "npm:react-refresh",
+      "data": {
+        "version": "0.18.0",
+        "packageName": "react-refresh",
+        "hash": "sha512-QgT5//D3jfjJb6Gsjxv0Slpj23ip+HtOpnNgnb2S5zU3CB26G/IDPGoy4RJB42wzFE46DRsstbW6tKHoKbhAxw=="
+      }
+    },
     "npm:readable-stream": {
       "type": "npm",
       "name": "npm:readable-stream",
@@ -3491,6 +3581,11 @@
       {
         "source": "web",
         "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "web",
+        "target": "npm:@vitejs/plugin-react",
         "type": "static"
       }
     ],
@@ -4732,6 +4827,30 @@
       },
       {
         "source": "npm:@babel/plugin-transform-property-literals",
+        "target": "npm:@babel/helper-plugin-utils",
+        "type": "static"
+      }
+    ],
+    "npm:@babel/plugin-transform-react-jsx-self": [
+      {
+        "source": "npm:@babel/plugin-transform-react-jsx-self",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@babel/plugin-transform-react-jsx-self",
+        "target": "npm:@babel/helper-plugin-utils",
+        "type": "static"
+      }
+    ],
+    "npm:@babel/plugin-transform-react-jsx-source": [
+      {
+        "source": "npm:@babel/plugin-transform-react-jsx-source",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@babel/plugin-transform-react-jsx-source",
         "target": "npm:@babel/helper-plugin-utils",
         "type": "static"
       }
@@ -6206,6 +6325,59 @@
         "type": "static"
       }
     ],
+    "npm:@types/babel__core": [
+      {
+        "source": "npm:@types/babel__core",
+        "target": "npm:@babel/parser",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/babel__core",
+        "target": "npm:@babel/types",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/babel__core",
+        "target": "npm:@types/babel__generator",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/babel__core",
+        "target": "npm:@types/babel__template",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/babel__core",
+        "target": "npm:@types/babel__traverse",
+        "type": "static"
+      }
+    ],
+    "npm:@types/babel__generator": [
+      {
+        "source": "npm:@types/babel__generator",
+        "target": "npm:@babel/types",
+        "type": "static"
+      }
+    ],
+    "npm:@types/babel__template": [
+      {
+        "source": "npm:@types/babel__template",
+        "target": "npm:@babel/parser",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/babel__template",
+        "target": "npm:@babel/types",
+        "type": "static"
+      }
+    ],
+    "npm:@types/babel__traverse": [
+      {
+        "source": "npm:@types/babel__traverse",
+        "target": "npm:@babel/types",
+        "type": "static"
+      }
+    ],
     "npm:@types/chai": [
       {
         "source": "npm:@types/chai",
@@ -6215,6 +6387,43 @@
       {
         "source": "npm:@types/chai",
         "target": "npm:assertion-error",
+        "type": "static"
+      }
+    ],
+    "npm:@vitejs/plugin-react": [
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:@babel/plugin-transform-react-jsx-self",
+        "type": "static"
+      },
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:@babel/plugin-transform-react-jsx-source",
+        "type": "static"
+      },
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:@rolldown/pluginutils",
+        "type": "static"
+      },
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:@types/babel__core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@vitejs/plugin-react",
+        "target": "npm:react-refresh",
         "type": "static"
       }
     ],
@@ -7510,6 +7719,11 @@
         "source": "npm:rollup",
         "target": "npm:@types/estree",
         "type": "static"
+      },
+      {
+        "source": "npm:rollup",
+        "target": "npm:fsevents",
+        "type": "static"
       }
     ],
     "npm:source-map-support": [
@@ -7698,6 +7912,11 @@
       {
         "source": "npm:vite",
         "target": "npm:tinyglobby",
+        "type": "static"
+      },
+      {
+        "source": "npm:vite",
+        "target": "npm:fsevents",
         "type": "static"
       }
     ],
