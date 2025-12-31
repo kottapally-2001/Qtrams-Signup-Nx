@@ -2,32 +2,13 @@
   "version": "6.0",
   "nxVersion": "18.3.5",
   "deps": {
+    "@nx/vite": "^22.3.3",
     "nx": "^18.0.0"
   },
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
     "projectFileMap": {
-      "api": [
-        {
-          "file": "apps/api/project.json",
-          "hash": "16366061765496189837"
-        },
-        {
-          "file": "apps/api/src/app.module.ts",
-          "hash": "3504299996022301441",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/main.ts",
-          "hash": "16399222526655972557",
-          "deps": [
-            "npm:@nestjs/core"
-          ]
-        }
-      ],
       "web": [
         {
           "file": "apps/web/index.html",
@@ -68,6 +49,26 @@
             "npm:vite",
             "npm:@vitejs/plugin-react",
             "npm:path"
+          ]
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/project.json",
+          "hash": "16366061765496189837"
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "3504299996022301441",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "16399222526655972557",
+          "deps": [
+            "npm:@nestjs/core"
           ]
         }
       ]

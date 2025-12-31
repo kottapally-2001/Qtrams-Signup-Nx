@@ -5,6 +5,7 @@
     "build": "nx build web"
   },
   "devDependencies": {
+    "@nx/vite": "^22.3.3",
     "nx": "^18.0.0"
   }
 }
