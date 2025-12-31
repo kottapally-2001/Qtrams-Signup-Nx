@@ -1,0 +1,99 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.3.5",
+  "deps": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "@nx/nest": "^22.3.3",
+    "@nx/react": "^22.3.3",
+    "@nx/vite": "^22.3.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "nx": "^18.0.0",
+    "vite": "^7.3.0"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/project.json",
+          "hash": "16366061765496189837"
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "3504299996022301441",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "16399222526655972557",
+          "deps": [
+            "npm:@nestjs/core"
+          ]
+        }
+      ],
+      "web": [
+        {
+          "file": "apps/web/index.html",
+          "hash": "11818890183798182393"
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "14509649168710290911"
+        },
+        {
+          "file": "apps/web/public/images/Qt.jpg",
+          "hash": "10616242133391021614"
+        },
+        {
+          "file": "apps/web/public/images/Qtrams.jpg",
+          "hash": "1936892030606793001"
+        },
+        {
+          "file": "apps/web/src/app.tsx",
+          "hash": "6655037164160682599"
+        },
+        {
+          "file": "apps/web/src/main.tsx",
+          "hash": "1484737792918215088",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/style.css",
+          "hash": "751499698190590954"
+        },
+        {
+          "file": "apps/web/vite.config.ts",
+          "hash": "8911545498513188612",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:path"
+          ]
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "17670818266143346511"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12346115351226826555"
+      },
+      {
+        "file": "package.json",
+        "hash": "6512042775747280520"
+      }
+    ]
+  }
+}

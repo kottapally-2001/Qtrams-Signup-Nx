@@ -1,0 +1,285 @@
+/* ===============================
+   Global Reset & Variables
+================================ */
+:root {
+  --primary: #596D48;
+  --primary-dark: #4e5f40;
+  --accent: #3b82f6;
+  --bg-light: #f9fafb;
+  --bg-input: #f3f4f6;
+  --border: #e5e7eb;
+  --text-dark: #111827;
+  --text-muted: #6b7280;
+  --danger: #d32f2f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background-color: #eef2f7;
+  color: var(--text-dark);
+}
+
+/* ===============================
+   Layout
+================================ */
+.container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ===============================
+   Sidebar
+================================ */
+.sidebar {
+  flex: 1;
+  min-width: 320px;
+  background-image: url("/images/Qt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sidebar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+.logo-container {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  border-radius: 0 16px 16px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.logo-container img {
+  height: 84px;
+  margin-bottom: 0.75rem;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4));
+}
+
+.logo-container h1 {
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.sidebar-credit {
+  position: absolute;
+  bottom: 14px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #e5e7eb;
+  opacity: 0.85;
+}
+
+/* ===============================
+   Form Section
+================================ */
+.form-section {
+  flex: 2;
+  background-color: var(--bg-light);
+  padding: 4rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+/* Intro text */
+.intro {
+  margin-bottom: 2rem;
+  max-width: 520px;
+}
+
+.intro p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.intro p strong,
+.intro p b {
+  color: var(--text-dark);
+}
+
+/* ===============================
+   Form Card
+================================ */
+
+form {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.04);
+  max-width: 520px;
+  width: 100%;
+}
+
+form h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.75rem;
+  font-weight: 700;
+}
+form {
+  width: 100%;
+  max-width: none;
+}
+
+
+/* ===============================
+   Inputs
+================================ */
+.form-row {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+  color: #374151;
+}
+
+input {
+  padding: 0.65rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background-color: var(--bg-input);
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+input:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+input:invalid {
+  border-color: var(--danger);
+}
+
+/* ===============================
+   Button
+================================ */
+button {
+  margin-top: 1.25rem;
+  background: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--primary-dark)
+  );
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   Login Text
+================================ */
+.login {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.login a {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+   Responsive
+================================ */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: 200px;
+    min-width: unset;
+  }
+
+  .logo-container {
+    border-radius: 0;
+    padding: 2rem;
+  }
+
+  .form-section {
+    padding: 2.5rem 1.5rem;
+  }
+
+  form {
+    padding: 2rem;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}

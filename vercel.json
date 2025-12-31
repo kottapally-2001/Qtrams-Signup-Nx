@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "apps/web/index.html",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/apps/web"
+      }
+    }
+  ]
+}

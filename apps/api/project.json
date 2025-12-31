@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "projectType": "application",
+  "sourceRoot": "apps/api/src",
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "options": {
+        "buildTarget": "api:build"
+      }
+    },
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["dist/apps/api"]
+    }
+  }
+}

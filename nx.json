@@ -1,0 +1,14 @@
+{
+  "npmScope": "qtrams",
+  "affected": {
+    "defaultBase": "main"
+  },
+  "projects": {
+    "web": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
+    }
+  }
+}
